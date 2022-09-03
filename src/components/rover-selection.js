@@ -17,20 +17,21 @@ export class RoverSelection extends LitElement {
         color: #E6D5B8;
         display: flex;
         justify-content: center;
+        height: 300px
     }
 
     input{
-        width: 80%;
-        height: 70%;
+        width: 240px;
+        height: 130px;
         object-fit: cover;
         margin-bottom: 6px;
     }
     #curiosity:hover, #opportunity:hover, #spirit:hover{
-        width:85%;
-        height: 72%;
+        width: 250px;
+        height: 140px;
     }
     div{
-        width: 30%;
+        width: 35%;
         display: flex;
         flex-direction: column;
         justify-content: center;
