@@ -27,8 +27,8 @@ export class RoverSelection extends LitElement {
         margin-bottom: 6px;
     }
     #curiosity:hover, #opportunity:hover, #spirit:hover{
-        width: 250px;
-        height: 140px;
+        width: 255px;
+        height: 145px;
     }
     div{
         width: 35%;
@@ -141,7 +141,7 @@ export class RoverSelection extends LitElement {
     return html`
     <div><input id="curiosity" type="image" src="${this.rovers[0].img}" value="0" @click="${this.setRover}"></input><label>Curiosity</label></div>
     <div><input id="opportunity" type="image" src="${this.rovers[1].img}" value="1" @click="${this.setRover}"></input><label>Opportunity</label></div>
-    <div><input id="spirit" type="image" src="${this.rovers[2].img}" value="2" @click="${this.setRover}"></input><label>Spirityyyyy</label></div>
+    <div><input id="spirit" type="image" src="${this.rovers[2].img}" value="2" @click="${this.setRover}"></input><label>Spirit</label></div>
     
     `;
   }
